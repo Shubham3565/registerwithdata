@@ -8,14 +8,23 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>With Data</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+        If You Can't Beat data, 
+          <a href="https://html5up.net"> Join data.</a> Created with
+          <a href="#"> Passion.</a>
         </p>
+        <form method="post" action="#">
+            <div className="field half">
+              <label htmlFor="email">Email</label>
+              <input type="text" name="email" id="email" />
+            </div>
+            <ul className="actions">
+              <li>
+                <input type="submit" value="Join Us" className="special leads" />
+              </li>
+            </ul>
+          </form>
       </div>
     </div>
     <nav>
